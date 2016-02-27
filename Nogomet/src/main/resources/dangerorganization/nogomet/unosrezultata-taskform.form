@@ -3,4 +3,21 @@
 <property name="name" value="unosrezultata-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="momcad_id_goloviPrve" type="InputTextInteger" id="2144920557">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;goloviPrve (momcad_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="momcad_in/goloviPrve"/>
+<property name="outputBinding" value="momcad_out/goloviPrve"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="momcad_id_goloviDruge" type="InputTextInteger" id="274317631">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;goloviDruge (momcad_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="momcad_in/goloviDruge"/>
+<property name="outputBinding" value="momcad_out/goloviDruge"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="momcad_in" name="#E9E371" type="dataModelerEntry" outId="momcad_out" value="dangerorganization.nogomet.Momcad" id="momcad_id"/>
 </form>
